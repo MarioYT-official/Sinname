@@ -1,0 +1,16 @@
+; project.godot
+[gd_project]
+config_version=5
+
+[application]
+config/name="Shooter 3D Ultra"
+run/main_scene="res://world.tscn"
+
+[input]
+ui_up={"events":[{"type":"key","scancode":87}]}
+ui_down={"events":[{"type":"key","scancode":83}]}
+ui_left={"events":[{"type":"key","scancode":65}]}
+ui_right={"events":[{"type":"key","scancode":68}]}
+shoot={"events":[{"type":"key","scancode":32}]}
+toggle_view={"events":[{"type":"key","scancode":86}]}
+open_menu={"events":[{"type":"key","scancode":27}]} # tecla ESC
